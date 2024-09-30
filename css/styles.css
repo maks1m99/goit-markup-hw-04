@@ -157,7 +157,12 @@
 
  .main-section-first {
     background-color: #2e2f42;
- }
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7); rgba(46, 47, 66, 0.7););
+    background-image: url(../images/people-office.jpg)    
+ } 
 
  .main-button {
    font-weight: 500;
@@ -199,6 +204,21 @@
    overflow: hidden;
  }
 
+
+.div-icons {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+
+
+
  .main-list {
    display: flex;
    gap: 24px;
@@ -229,7 +249,7 @@
 
   .main-section-third {
     width: 1440px;
-      height: 732px;
+    height: 732px;
     padding: 120px 0;
     background-color: #F4F4FD
   }
@@ -256,12 +276,12 @@
  }
 
   .main-list-two-item {
-    border-radius: 0px 0px 4px 4px;
-   flex-basis: calc((100% - 3 * 24px) / 4)
-   padding: 0px 0px 32px 0px;
-   width: 264px;
-   height: 380px;
-  }
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 3 * 24px) / 4)
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+   }
 
  .main-image-header {
    color: #2e2f42;
